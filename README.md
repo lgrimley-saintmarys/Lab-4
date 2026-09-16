@@ -8,7 +8,7 @@ Create a github repo called "Lab-4." Invite me as a collaborator to your repo.  
 Do not change any of the code given to you (other than the comments which should absolutely be removed).  I will run your code with the expected structure.  You are welcome to add any additional lines of code or functions you find necessary.  If you make changes in which your solutions do not run, you will receive no credit for that problem.  All solutions should include a docstring with doctests.  Unless otherwise specified, all functions should end with a return of the appropriate type and not a print statement.
 
 # Problem 1
-Design the function flatten that takes a (possibly deep) np.array and "flattens" it.  That is, removes any internal nesting so that it is just a single, one dimensional array.
+Design the function flatten that takes a multidimensional np.array and "flattens" it.  That is, removes any internal nesting so that it is just a single, one dimensional array.  Notice we are not allowing for just any kind of nesting here--just those in which all of the internal lengths match.
 
 # Problem 2
 Consider the class of one dimensional np.arrays which are sorted in ascending order (duplicates are allowed).  Design the function merge which takes in two sorted arrays and returns a new array that contains all of the elements in the two arrays in sorted order.
